@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+	 <head>
+
+		 <title>Depression Report</title>
+
+		 <meta charset = "utf-8" />
+		 <meta name = "viewport" content = "width=device-width,initial-scale=1" />
+		 
+		 <link rel = "stylesheet" type = "text/css" href = "report css/depression report.css" />
+		 <link rel = "stylesheet" href = "dist/bootstrap/css/bootstrap.min.css" />
+
+		 <style type = "text/css">
+		 </style>
+		 
+		 <script type = "text/javascript" src = "beck's_css_and_js/bdi_script.js">
+		 </script>
+
+	 </head>
+
+	 <body onload = "display_result()" >
+		 
+		<div class = "container" id = 'my-location' title = 'Please close the page tap or navigate to the previous page to take another test.' >
+
+		<h2 style = 'text-align: center;font-size: 2.5em;' >BDI Test Report</h2>
+
+		<h2>Depression score : <b id = 'u-d-r'>---</b></h2>
+
+		<table class = 'table table-striped table-hover table-bordered' border = '1' >
+
+		<tr>
+
+		<th></th>
+		<th>Depression</th>
+
+		</tr>
+
+		<tr>
+		<td>
+		normal
+		</td>
+
+		<td id = 'd-n' >&check;</td>
+
+		</tr>
+
+		<tr>
+		<td>Mild</td>
+		<td id = 'd-m' >&check;</td>
+
+		</tr>
+
+		<tr>
+		<td>Borderline Clinical Depression</td>
+		<td id = 'd-bcd' >&check;</td>
+
+		</tr>
+
+		<tr>
+		<td>Moderate</td>
+		<td id = 'd-md' >&check;</td>
+
+		</tr>
+
+		<tr>
+		<td>Severe</td>
+		<td id = 'd-s' >&#9888;</td>
+
+		</tr>
+
+		<tr>
+		<td>Extremely Severe</td>
+		<td id = 'd-es' >&#9888;</td>
+
+		</tr>
+
+		</table>
+
+		<h2 style = 'font-family:arial;' >Action : <p id = 'u-t' >---</p></h2>
+
+		</div>
+
+	 </body>
+
+</html>

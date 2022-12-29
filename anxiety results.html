@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+	 <html>
+
+		 <head>
+			 
+			 <title>Anxiety Results</title>
+			 
+			 <meta charset = "utf-8" />
+			 <meta name = "viewport" content = "width=device-width,initial-scale=1" />
+			 
+			 <link rel = "stylesheet" type = "text/css" href = "report css/anxiety report.css" />
+			 <link rel = "stylesheet" href = "dist/bootstrap/css/bootstrap.min.css" />
+				
+			 <script type = 'text/javascript' src = "beck's_css_and_js/bai_script.js" >
+			 </script>
+			 
+		 </head>
+	 
+	 <body style = "background-color: gainsboro;" onload = "display_result()" >
+	 
+		 <div class = "container" id = 'my-location' title = 'Please close the page tap or navigate to the previous page to take another test.' >
+
+		 <h2 style = 'text-align: center;font-size: 2.5em;' >BAI Test Report</h2>
+
+		 <h2>Anxiety score : <b id = 'u-a-r'>---</b></h2>
+
+
+		 <table class = 'table table-striped table-hover' >
+
+		 <tr>
+
+		 <th></th>
+
+		 <th>Anxiety</th>
+
+		 </tr>
+
+		 <tr>
+		     <td>
+		         Low
+		     </td>
+
+		 <td id = 'a-l' >&check;</td>
+
+		 </tr>
+
+		 <tr>
+		 <td>Moderate</td>
+
+		 <td id = 'a-md' >&check;</td>
+
+		 </tr>
+
+		 <tr>
+		 <td>Extremely Severe</td>
+
+		 <td id = 'a-es' >&#9888;</td>
+
+		 </tr>
+
+		 </table>
+
+		 <h2 style = 'font-family:arial;' >Action : <p id = 'u-t' >---</p></h2>
+
+		 </div>
+	 
+	 </body>
+
+	 </html>

@@ -1,0 +1,37 @@
+			 #my-location {
+				 background-color: ;
+				 border-radius: 12px;
+				 box-shadow: ;
+				 padding: 2em;
+			 }
+			 
+			 .bolder-good {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: green;
+			 }
+			.bolder-bad {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: red;
+			 }
+			 .bolder-btn {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: orange;
+			 }
+			 
+			 /* SUPPORT SMALLER SCREENS */
+			 /* SUPPORT SMALLER SCREENS */
+			 /* SUPPORT SMALLER SCREENS */
+			 /* SUPPORT SMALLER SCREENS */
+			 /* SUPPORT SMALLER SCREENS */
+			 
+			 @media screen and (max-width: 700px) {
+				 h2 b {
+					 font-size: 1em;
+				 }
+				 h2 p {
+					 font-size: 0.6em;
+				 }
+			 }

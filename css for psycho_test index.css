@@ -1,0 +1,159 @@
+/* CSS FOR INDEX OF PSYCHO TEST WEBSITE */
+
+
+:root {
+     --h2FontSize: 2em;
+	 --pFont-Size: 1em;
+	 --bg-color: hotpink;
+}
+
+body {
+     background-color: ;
+     background-image: url('pictures/pic_grass.jpg');
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 overflow: auto;
+	 line-height: 2.5em;
+	 font-size: var(--pFont-Size);
+}
+
+.note-1:hover {
+     font-size: 1.6em;
+	 color: darkslategray;
+}
+.note-2:hover {
+     font-size: 1.6em;
+	 color: darkslategray;
+}
+.note-3:hover {
+     font-size: 1.6em;
+	 color: darkslategray;
+}
+.note-4:hover {
+     font-size: 1.6em;
+	 color: darkslategray;
+}
+
+.main-div {
+     background-color: #eee;
+	 border-radius: 12px;
+	 padding: 2em;
+	 box-shadow: 2px 3px 3px 2px;
+	 opacity: 90%;
+	 transition: background-color 6s;
+}
+.main-div:hover {
+     background-color: #bbddff;
+}
+
+details {
+     cursor: default;
+	 background-color: white;;
+	 box-shadow: 2px 3px 3px 2px;
+	 border-radius: 12px;
+	 padding: 1.5em;
+}
+
+details summary {
+     font-size: 2em;
+}
+
+details summary:hover {
+     cursor: pointer;
+	 font-size: 1.5em;
+}
+
+/* for logo */
+.app-name {
+     font-size: var(--h2FontSize);
+	 background-color: white;
+	 color: blue;
+	 width: 20em;
+	 padding: 0.3em;
+	 border-radius: 12px;
+	 box-shadow: 2px 3px 3px 2px black;
+	 transition: background-color 4s;
+	 z-index: 2;
+}
+b {
+     font-size: 1em;
+	 color: red;
+}
+.app-name:hover {
+     tansition: 100ms;
+	 background-color: black;
+	 color: white;
+}
+
+ul {
+     font-size: var(--pFontSize);
+}
+
+:is(#bdi-button,#bai-button,#mmpi-button,#dass21-button,.virtual-bot,.call-psychologist) {
+     padding: 1.2em;
+	 border-radius: 12px;
+	 font-size: 0.7em;
+	 transition: 100ms;
+	 margin: 0.5%;
+}
+
+a[href] {
+	 font-size: 1.4em;
+	 color: blue;
+	 text-decoration: none;
+}
+
+:is(#bdi-button,#bai-button,#mmpi-button,#dass21-button,.virtual-bot,.call-psychologist):hover {
+	 background-color: yellow;
+	 box-shadow: 1px 5px 5px 1px;
+	 font-size: 0.9em;
+}
+
+.footer {
+	 background-color: white;
+	 font-size: 1.4em;
+	 width: 98%;
+	 border-radius: 12px;
+}
+
+
+.cards-container {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				overflow: auto;
+				background: ;
+			 }
+			 .card-parent {
+				 margin: 2%;
+				 width: 20em;
+				 height: 15em;
+				 background-color: ;
+				 border-radius: 12px;
+				 box-shadow: 0px 5px 5px 0px;
+			 }
+
+			 img {
+				width: 100%;
+				height: 9em;
+				border-radius: 12px;
+			 }
+			 
+			 .card-parent #card-child {
+				background-color:;
+				margin: 2%;
+				display: flex;
+				justify-content: center;
+			 }	
+			 
+			 #card-child button {
+				padding: 1.5em;
+				border-radius: 12px;
+				
+			 }
+			 
+			 .cards-button a[href] {
+				text-decoration: none;
+				color: black;
+				
+			 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	 <title>DASS21 Result</title>
+	 <meta charset = "utf-8" />
+	 <meta name = "viewport" content = "width=device-width,initial-width=1" />
+	 
+	 <link rel = "stylesheet" type = "text/css" href = "report css/dass 21 report.css" />
+	 <link rel = "stylesheet" type = "text/css" href = "dist/bootstrap/css/bootstrap.min.css"/>
+	 
+	 <script type = "text/javascript" src = "dass_css_and_js/dass21_script.js" >
+	 </script>
+	 
+</head>
+
+<body onload = "display_result()" >
+
+	<div class = "container" id = 'my-location' title = 'Please close the page tap or navigate to the previous page to take another test.' >
+
+	<h2 class = "text-primary" style = 'text-align: center;font-size: 2.5em;' >DASS 21 Test Report</h2>
+
+	<h2>Depression score : <b id = 'u-d-r'>---</b></h2>
+	<h2>Anxiety score : <b id = 'u-a-r'>---</b></h2>
+	<h2>Stress score : <b id = 'u-s-r'>---</b></h2>
+
+	<table class = 'table table-bordered table-striped table-hover'>
+
+	<tr>
+
+	<th></th>
+	<th>Depression</th>
+	<th>Anxiety</th>
+	<th>Stress</th>
+	</tr>
+
+	<tr>
+	<td>
+	normal
+	</td>
+
+	<td id = 'd-n' >&check;</td>
+	<td id = 'a-n' >&check;</td>
+	<td id = 's-n' >&check;</td>
+	</tr>
+
+	<tr>
+	<td>Mild</td>
+	<td id = 'd-m' >&check;</td>
+	<td id = 'a-m' >&check;</td>
+	<td id = 's-m' >&check;</td>
+	</tr>
+
+	<tr>
+	<td>Moderate</td>
+	<td id = 'd-md' >&check;</td>
+	<td id = 'a-md' >&check;</td>
+	<td id = 's-md' >&check;</td>
+	</tr>
+
+	<tr>
+	<td>Severe</td>
+	<td id = 'd-s' >&#9888;</td>
+	<td id = 'a-s' >&#9888;</td>
+	<td id = 's-s' >&#9888;</td>
+	</tr>
+
+	<tr>
+	<td>Extremely Severe</td>
+	<td id = 'd-es' >&#9888;</td>
+	<td id = 'a-es' >&#9888;</td>
+	<td id = 's-es' >&#9888;</td>
+	</tr>
+
+	</table>
+
+	<p class = "" style = "font-family:arial;" >Action : <p id = 'u-t' >---</p></p>
+
+</div>
+
+</body>
+
+</html>

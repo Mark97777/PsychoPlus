@@ -1,0 +1,42 @@
+.note-div h1 {
+     font-size: 3em;
+}
+.note-div p,ol {
+     font-size: 2em;
+}
+
+table {
+     width: 100%;
+	 font-size: 2em;
+}
+
+h1 {
+     text-align: center;
+}
+
+.input-button {
+     padding: 1.5em;
+	 border-radius: 12px;
+	 margin-left: 45%;
+}
+
+section {
+	 font-size: 1.5em;
+}
+
+/* SUPPORT FOR SMALLER SCREENS */
+/* SUPPORT FOR SMALLER SCREENS */
+/* SUPPORT FOR SMALLER SCREENS */
+/* SUPPORT FOR SMALLER SCREENS */
+
+@media screen and (max-width: 700px) {
+	.note-div p,ol {
+		font-size: 1em;
+	}
+	section {
+		font-size: 1em;
+	}
+	.table {
+		font-size: 1em;
+	}
+}

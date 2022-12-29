@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+	 <html lang = "en">
+	 
+		 <head>
+		 
+		 <title>The Big Five Personality Test</title>
+		 
+		 <link rel = "stylesheet" href = "dist/bootstrap/css/bootstrap.min.css" />
+		 
+		 <meta charset = "utf-8" />
+		 <meta name = "viewport" content = "width=device-width,initial-scale=1" />
+		 <meta name = "author" content = "Mark Anthony Graham" />
+		 <meta name = "description" content = "The Big Five Personality Test" />
+		 
+		 <style type = "text/css">
+		 
+			 :root {
+				 --pFont-size: 2em;
+			 }
+		 
+			 .pTitle {
+				 text-align: center;
+			 }
+			 p {
+				 font-size: var(--pFont-size);
+			 }
+			 
+			 table {
+				 width: 100%;
+				 font-size: 2em;
+			 }
+			 .input-button {
+				 margin-top: 1.5em;
+				 padding: 1.5em;
+				 margin-left: 45%;
+				 border-radius: 12px;
+			 }
+			 
+			 @media screen and (max-width: 700px) {
+				:root {
+				 --pFont-size: 1em;
+				}
+				
+				 table {
+					 width: 100%;
+					 font-size: 1em;
+				}
+			 }
+			 
+		 </style>
+		 
+		 <script src = "Big Five Personality Test Js and css/Big five personality test JS.js" >
+		 </script>
+		 
+		 
+		 </head>
+		 
+		 <body>
+			
+			<div class = "container">
+				 <h1 class = "pTitle">The Big Five Personality Test</h1>
+				 
+				 <p>
+					 This is a personality test, it will help you understand why you act the way that you do and how your
+					 personality is structured. Please follow the instructions below;
+					 <br />
+					 <br />
+					 <b>Instructions</b>
+					 <br />
+					 In the table below, for each statement 1-50 mark how much you agree with on the scale 1-5, where
+					 1=disagree, 2=slightly disagree, 3=neutral, 4=slightly agree and 5=agree, in the box to the left of it.
+				 </p>
+			 </div>
+			 
+			 <br />
+			 <br />
+			 <br />
+			 <br />
+			 
+			 <form class = "container">
+				 
+				 <table class = "table table-bordered table-striped table-hover">
+					 <tr>
+						 <th>I...</th>
+						 <th colspan = "5">Rating</th>
+					 </tr>
+					 
+					 <tr>
+					 
+						 <td>1.Am the life of the party.</td>
+						 <td><label><input  type = "radio" name = "qu-1" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-1" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-1" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-1" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-1" value = "5" />5</label></td>
+					 
+					 </tr>
+					 
+					 <tr>
+						 <td>2.Feel little concern for others.</td>
+						 <td><label><input  type = "radio" name = "qu-2" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-2" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-2" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-2" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-2" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>3.Am always prepared.</td>
+						 <td><label><input  type = "radio" name = "qu-3" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-3" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-3" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-3" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-3" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>4.Get stressed out easily.</td>
+						 <td><label><input  type = "radio" name = "qu-4" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-4" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-4" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-4" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-4" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>5.Have a rich vocabulary.</td>
+						 <td><label><input  type = "radio" name = "qu-5" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-5" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-5" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-5" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-5" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>6.Don't talk alot.</td>
+						 <td><label><input  type = "radio" name = "qu-6" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-6" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-6" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-6" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-6" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>7.Am interested in people.</td>
+						 <td><label><input  type = "radio" name = "qu-7" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-7" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-7" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-7" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-7" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>8.Leave my belongings around.</td>
+						 <td><label><input  type = "radio" name = "qu-8" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-8" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-8" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-8" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-8" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>9.Am relaxed most of the time.</td>
+						 <td><label><input  type = "radio" name = "qu-9" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-9" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-9" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-9" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-9" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>10.Have difficulty understanding abstract ideas.</td>
+						 <td><label><input  type = "radio" name = "qu-10" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-10" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-10" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-10" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-10" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>11.Feel comfortable around people.</td>
+						 <td><label><input  type = "radio" name = "qu-11" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-11" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-11" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-11" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-11" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>12.Insult people.</td>
+						 <td><label><input  type = "radio" name = "qu-12" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-12" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-12" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-12" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-12" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>13.Pay attention to details.</td>
+						 <td><label><input  type = "radio" name = "qu-13" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-13" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-13" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-13" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-13" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>14.Worry about things.</td>
+						 <td><label><input  type = "radio" name = "qu-14" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-14" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-14" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-14" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-14" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>15.Have a vivid imagination.</td>
+						 <td><label><input  type = "radio" name = "qu-15" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-15" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-15" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-15" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-15" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>16.Keep in the background.</td>
+						 <td><label><input  type = "radio" name = "qu-16" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-16" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-16" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-16" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-16" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>17.Sympathize with others' feelings.</td>
+						 <td><label><input  type = "radio" name = "qu-17" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-17" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-17" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-17" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-17" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>18.Make a mess of things.</td>
+						 <td><label><input  type = "radio" name = "qu-18" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-18" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-18" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-18" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-18" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>19.Seldom feel blue.</td>
+						 <td><label><input  type = "radio" name = "qu-19" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-19" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-19" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-19" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-19" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>20.Am not interested in abstract ideas.</td>
+						 <td><label><input  type = "radio" name = "qu-20" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-20" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-20" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-20" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-20" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>21.Start conversations.</td>
+						 <td><label><input  type = "radio" name = "qu-21" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-21" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-21" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-21" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-21" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>22.Am not interested in other people's problems.</td>
+						 <td><label><input  type = "radio" name = "qu-22" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-22" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-22" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-22" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-22" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>23.Get chores done right away.</td>
+						 <td><label><input  type = "radio" name = "qu-23" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-23" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-23" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-23" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-23" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>24.Am easily disturbed.</td>
+						 <td><label><input  type = "radio" name = "qu-24" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-24" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-24" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-24" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-24" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>25.Have excellent ideas.</td>
+						 <td><label><input  type = "radio" name = "qu-25" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-25" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-25" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-25" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-25" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>26.Have little to say.</td>
+						 <td><label><input  type = "radio" name = "qu-26" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-26" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-26" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-26" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-26" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>27.Have a soft heart.</td>
+						 <td><label><input  type = "radio" name = "qu-27" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-27" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-27" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-27" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-27" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>28.Often forget to put things back in their proper place.</td>
+						 <td><label><input  type = "radio" name = "qu-28" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-28" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-28" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-28" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-28" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>29.Get upset easily.</td>
+						 <td><label><input  type = "radio" name = "qu-29" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-29" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-29" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-29" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-29" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>30.Do not have a good imagination.</td>
+						 <td><label><input  type = "radio" name = "qu-30" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-30" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-30" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-30" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-30" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>31.Talk to a lot of different people at parties.</td>
+						 <td><label><input  type = "radio" name = "qu-31" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-31" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-31" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-31" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-31" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>32.Am not really interested in others.</td>
+						 <td><label><input  type = "radio" name = "qu-32" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-32" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-32" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-32" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-32" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>33.Like order.</td>
+						 <td><label><input  type = "radio" name = "qu-33" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-33" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-33" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-33" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-33" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>34.Change my mood a lot.</td>
+						 <td><label><input  type = "radio" name = "qu-34" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-34" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-34" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-34" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-34" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>35.Am quick to understand things.</td>
+						 <td><label><input  type = "radio" name = "qu-35" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-35" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-35" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-35" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-35" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>36.Don't like to draw attention to myself.</td>
+						 <td><label><input  type = "radio" name = "qu-36" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-36" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-36" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-36" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-36" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>37.Take time out for others.</td>
+						 <td><label><input  type = "radio" name = "qu-37" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-37" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-37" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-37" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-37" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>38.Shirk my duties.</td>
+						 <td><label><input  type = "radio" name = "qu-38" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-38" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-38" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-38" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-38" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>39.Have frequent mood swings.</td>
+						 <td><label><input  type = "radio" name = "qu-39" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-39" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-39" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-39" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-39" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>40.Use difficult words.</td>
+						 <td><label><input  type = "radio" name = "qu-40" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-40" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-40" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-40" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-40" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>41.Don't mind being the center of attention.</td>
+						 <td><label><input  type = "radio" name = "qu-41" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-41" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-41" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-41" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-41" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>42.Feel others' emotions.</td>
+						 <td><label><input  type = "radio" name = "qu-42" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-42" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-42" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-42" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-42" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>43.Follow a schedule.</td>
+						 <td><label><input  type = "radio" name = "qu-43" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-43" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-43" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-43" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-43" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>44.Get irritated easily.</td>
+						 <td><label><input  type = "radio" name = "qu-44" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-44" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-44" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-44" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-44" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>45.Spend time reflecting on things.</td>
+						 <td><label><input  type = "radio" name = "qu-45" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-45" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-45" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-45" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-45" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>46.Am quiet around strangers.</td>
+						 <td><label><input  type = "radio" name = "qu-46" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-46" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-46" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-46" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-46" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>47.Make people feel at ease.</td>
+						 <td><label><input  type = "radio" name = "qu-47" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-47" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-47" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-47" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-47" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>48.Am exacting in my work.</td>
+						 <td><label><input  type = "radio" name = "qu-48" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-48" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-48" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-48" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-48" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>49.Often feel blue.</td>
+						 <td><label><input  type = "radio" name = "qu-49" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-49" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-49" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-49" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-49" value = "5" />5</label></td>
+					 </tr>
+					 
+					 <tr>
+						 <td>50.Am full of ideas.</td>
+						 <td><label><input  type = "radio" name = "qu-50" value = "1" />1</label></td>
+						 <td><label><input  type = "radio" name = "qu-50" value = "2" />2</label></td>
+						 <td><label><input  type = "radio" name = "qu-50" value = "3" />3</label></td>
+						 <td><label><input  type = "radio" name = "qu-50" value = "4" />4</label></td>
+						 <td><label><input  type = "radio" name = "qu-50" value = "5" />5</label></td>
+					 </tr>
+				 
+				 </table>
+				 
+				 <a href = "BFPT report.html" target = "_blank">
+				 <input class = "btn btn-primary btn-lg pull-right" type = "button" value = "Finish" onclick = "save_result()" />
+				 </a>
+				 
+			 
+			 </form>
+			 
+			 <br />
+			 <br />
+			 <br />
+			 <br />
+			 
+		 </body>
+
+	 </html>

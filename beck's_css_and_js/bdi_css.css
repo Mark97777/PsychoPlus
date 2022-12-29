@@ -1,0 +1,32 @@
+
+#my-loaction {
+     background-color: hotpink;
+}
+	 
+:root {
+     --fontSize: 2.2em;
+	 border: 0.9em solid black;
+}
+
+
+.forms-holder {
+     background-color: white;
+	 padding-left: 2em;
+	 font-size: var(--fontSize);
+}
+.input-button {
+     padding: 1.5em;
+	 border-radius: 12px;
+	 margin-left: 45%;
+}
+
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+
+@media screen and (max-width: 700px) {
+	.forms-holder {
+		font-size: 1.2em;
+	}
+}

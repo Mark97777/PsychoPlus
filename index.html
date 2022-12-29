@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Psychological Test</title>
+	<meta charset = "utf-8" />
+	<meta name = "viewport" content = "width=device-width,initial-scale=1" />
+	<link rel = "stylesheet" href = "dist/bootstrap/css/bootstrap.min.css">
+	<link rel = "stylesheet" href = "dist/font-awesome/css/font-awesome.min.css">
+	<link rel = "stylesheet" href = "nav_css_and_js/nav_css.css">
+	<style>
+		.bg-dark {
+			background-color: #333;
+		}
+		body {
+			background-image: url("pictures/wp9.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.b {
+			width: 90%;
+			transition: 400ms;
+		}
+		.b:hover {
+			width: 100%;
+			transition: 400ms;
+		}
+		.bg {
+			background-image: url('pictures/wp7.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 12px;
+			height: 17em;
+			transition: 2s;
+			width: 100%;
+		}
+		.bg h1 {
+			color: white;
+		}
+		.bg:hover {
+			transition: 2s;
+			padding: 0.2em;
+		}
+		a[href] {
+			text-decoration: none;
+		}
+		.card {
+			width: 25%;
+			box-shadow: 0px 5px 3px -3px blue;
+			margin: 1em;
+		}
+		.card div{
+			width: 100%;
+			transition: 400ms;
+		}
+		.card div:hover {
+			padding: 0.6em;
+			transition: 400ms;
+			opacity: 20%;
+		}
+		.flex {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		/*SUPPORT FOR SMALLER SCREENS*/
+		/*SUPPORT FOR SMALLER SCREENS*/
+		/*SUPPORT FOR SMALLER SCREENS*/
+		/*SUPPORT FOR SMALLER SCREENS*/
+		
+		@media screen and (max-width: 700px) {
+			.card {
+				width: 40%;
+			}
+		}
+		
+	</style>
+	<script>
+		function notice() {
+			alert("This feature would be available soon. Please use the 'Big Five Personality Test' at the time being. Thank You.");
+		};
+	</script>
+	<script src = "nav_css_and_js/nav_js.js">
+	</script>
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+	  <a href="#" class="active">PsychoPlus</a>
+	  <a href="#contactdeveloper">Contact</a>
+	  <a href="#about">About</a>
+	  <a>
+	  <div class = 'search-box'>
+		<form action = "virtual_market.php" method = "post">
+			<input class = 'form-control' type = 'search' name = 'search' required placeholder = "search..." />
+			<button type = "submit" ><span style = "color: black;display: block" class = "fa fa-search"></span></button>
+		</form>
+	  </div>
+	  </a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
+	<section onmouseover = "show_contact()" class = "" id = "contactdeveloper">
+				<a href = "./index.html" style = "cursor: pointer;font-size: 2em;" onclick = "hide_contact()" class = "fa fa-close text-danger pull-right"></a>
+				<p class = "lead">Hey there!</p>
+				<p class = "">I am Cyberkodes the developer of PsychoPlus, Ya can reach me on my <a href = "mailto:gmark97777@gmail.com">email</a></p>
+	</section>
+	
+	<section onmouseover = "show_about()" class = "" id = "about">
+				<a href = "./index.html" style = "cursor: pointer;font-size: 2em;" onclick = "hide_about()" class = "fa fa-close text-danger pull-right"></a>
+				<p class = "page-header"><strong>About PsychoPlus</strong></p>
+				<p>Psychoplus is a webApp designed to automate various kinds of psychological test</p>
+				<p class = "lead">Test Available</p>
+				<ul class = "list list-unstyled">
+					<li>Depression Scales</li>
+					<li>Anxiety Scales</li>
+					<li>Personality Scales</li>
+				</ul>
+				<p class = "lead">Important</p>
+				<p>As it is seen important to get tested for various medical conditions.
+				We equally urge individuals to periodically check their mental status on Our platform.
+				For quick diagnosis that may help in earlier therapies for psychological issues.
+				PsychoPlus, would be of great assistance to psychological health professionals, as it would
+				automate and computate the assessment results that would save time and energy.
+				We also guarrantee of a very valid score from our system.</p>
+	</section>
+
+	<br />
+	<div class = "container b">
+		<div class = "container bg">
+			<h1 class = "page-header">PsychoPlus - <small style = 'color:white;'>Assessment made easy</small></h1>
+		</div>
+	</div>
+	
+	
+	<div class = "container">
+		<h3 class = "page-header">Depression Scale</h3>
+		<div class = "container flex">
+			<div class = "card">
+				<div>
+				<image width = "100%" class =  "" src = "pictures/issue pics/BDI logo white.jpg" alt = "image"/>
+				</div>
+				<div style = "display: flex;flex-direction: column;">
+					<a role = 'button' class = "btn btn-primary btn-lg" href = 'bdi_forms.html'>test</a>
+				</div>
+			</div>
+			<div class = "card">
+				<div>
+				<image width = "100%" class =  "" src = "pictures/issue pics/Dass21.jpg" alt = "image"/>
+				</div>
+				<div style = "display: flex;flex-direction: column;">
+					<a role = 'button' class = "btn btn-primary btn-lg" href = 'dass21.html'>test</a>
+				</div>
+			</div>
+		</div>
+		<h3 class = "page-header">Anxiety Scale</h3>
+		<div class = "container flex">
+			<div class = "card">
+				<div>
+				<image width = "100%" class =  "" src = "pictures/issue pics/BAI clear.jpg" alt = "image"/>
+				</div>
+				<div style = "display: flex;flex-direction: column;">
+					<a role = 'button' class = "btn btn-primary btn-lg" href = 'bai_forms.html'>test</a>
+				</div>
+			</div>
+		</div>
+		<h3 class = "page-header">Personality Scale</h3>
+		<div class = "container flex">
+			<div class = "card">
+				<div>
+				<image width = "100%" class =  "" src = "pictures/issue pics/BFPT.jpg" alt = "image"/>
+				</div>
+				<div style = "display: flex;flex-direction: column;">
+					<a role = 'button' class = "btn btn-primary btn-lg" href = 'Big Five Personality Test.html'>test</a>
+				</div>
+			</div>
+			<div class = "card">
+				<div>
+				<image width = "100%" class =  "" src = "pictures/issue pics/MBPT.jpg" alt = "image"/>
+				</div>
+				<div style = "display: flex;flex-direction: column;">
+					<a onclick = "notice()" role = 'button' class = "btn btn-primary btn-lg" href = '#'>test</a>
+				</div>
+			</div>
+		</div>
+		<a style = "display: none;" role = "button" class = "btn" href = "https://flutterwave.com/pay/fz0p0bg9pg0e">Pay</a>
+	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<footer style = "padding: 2em;" class = "bg-dark">
+		<p style = "color: white;" class = "text-center" >PsychoPlus ver 0.2.9</p>
+	</footer>
+</body>
+
+</html>

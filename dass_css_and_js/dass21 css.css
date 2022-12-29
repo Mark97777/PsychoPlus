@@ -1,0 +1,63 @@
+.note-div h1 {
+     font-size: 3em;
+}
+.note-div p,ul {
+     font-size: 2em;
+}
+
+
+h1 {
+     text-align: center;
+}
+
+.input-button {
+     padding: 1.5em;
+	 border-radius: 12px;
+	 margin-left: 45%;
+}
+
+#my-location {
+     margin-left: 15%;
+     margin-right: 15%;
+	 margin-bottom: 20em;
+	 margin-top: 1em;
+	 padding: 2em;
+	 width: auto;
+	 box-shadow: 2px 3px 3px 2px;
+	 display: block;
+	 background-color: #fff;
+}
+#my-location table {
+     width: 100%;
+}
+
+
+.dass21-result-table {
+     width: auto;
+	 font-size: 1em;
+}
+
+.bolder-good {
+     font-size: 2em;
+	 font-weight: bolder;
+	 color: green;
+}
+.bolder-bad {
+     font-size: 2em;
+	 font-weight: bolder;
+	 color: red;
+}
+
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+/*SUPPORT FOR SMALLER SCREENS*/
+
+@media screen and (max-width: 700px) {
+	.note-div h1 {
+		font-size: 1.2em;
+	}
+	.note-div p,ul {
+		font-size: 1em;
+	}
+}

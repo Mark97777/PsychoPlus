@@ -1,0 +1,31 @@
+		 .bolder-good {
+			 font-size: 2em;
+			 font-weight: bolder;
+			 color: green;
+		 }
+		 .bolder-bad {
+			 font-size: 2em;
+			 font-weight: bolder;
+			 color: red;
+		 }
+		 #my-location {
+			 background-color: white;
+			 padding: 1em;
+			 border-radius: 12px;
+			 box-shadow: ;
+		 }
+		 
+		 
+			/*SUPPORT FOR SMALLER SCREENS*/
+			/*SUPPORT FOR SMALLER SCREENS*/
+			/*SUPPORT FOR SMALLER SCREENS*/
+			/*SUPPORT FOR SMALLER SCREENS*/
+
+			@media screen and (max-width: 700px) {
+				#my-location h2 {
+					font-size: 1.3em;
+				}
+				p{
+					font-size: 1.5em;
+				}
+			}

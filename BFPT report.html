@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		 <title>BFPT Report</title>
+		 
+		 <link rel = "stylesheet" href = "dist/bootstrap/css/bootstrap.min.css" />
+		 
+		 <meta charset = "utf-8" />
+		 <meta name = "viewport" content = "width=device-width,initial-scale=1" />
+		 <meta name = "author" content = "Mark Anthony Graham" />
+		 
+		 <style type = "text/css">
+			 #my-location {
+				 background-color: ;
+				 padding: 1em;
+				 border-radius: 12px;
+			 }
+			 
+			 .bolder-good {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: green;
+			 }
+			.bolder-bad {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: red;
+			 }
+			 .bolder-btn {
+					 font-size: 2em;
+					 font-weight: bolder;
+					 color: orange;
+			 }
+			 
+			 /* SUPPORT FOR SMALLER SCREENS */
+			 /* SUPPORT FOR SMALLER SCREENS */
+			 /* SUPPORT FOR SMALLER SCREENS */
+			 /* SUPPORT FOR SMALLER SCREENS */
+			 /* SUPPORT FOR SMALLER SCREENS */
+			 
+			 @media screen and (max-width: 700px) {
+				body {
+					font-size: 1.3em;
+				}
+				h2 {
+					font-size: 1.3em;
+				}
+			 }
+			 
+			 
+		 </style>
+		 
+		 <script src = "Big Five Personality Test Js and css/Big five personality test JS.js">
+		 </script>
+		 
+	</head>
+	
+	<body onload = "display_result()">
+		 <div class = "container" id = 'my-location' title = 'Please close the page tap or navigate to the previous page to take another test.' >
+
+			<h2 class = "text-center" >The Big Five Personality Test Report</h2>
+
+			<h2>Extraversion score : <b id = 'u-e-s'>---</b></h2>
+			<h2>Agreeableness score : <b id = 'u-a-s'>---</b></h2>
+			<h2>Conscientiousness score : <b id = 'u-c-s'>---</b></h2>
+			<h2>Neuroticism score : <b id = 'u-n-s'>---</b></h2>
+			<h2>Openness score : <b id = 'u-o-s'>---</b></h2>
+
+			<table class = 'table table-bordered table-striped table-hover' border = '1' >
+
+			<tr>
+
+			<th></th>
+			<th>Extraversion</th>
+			<th>Agreeableness</th>
+			<th>Conscientiousness</th>
+			<th>Neuroticism</th>
+			<th>Openness</th>
+			</tr>
+
+			<tr>
+			<td>
+			Extremely low
+			</td>
+
+			<td id = 'e-el' >&check;</td>
+			<td id = 'a-el' >&check;</td>
+			<td id = 'c-el' >&check;</td>
+			<td id = 'n-el' >&check;</td>
+			<td id = 'o-el' >&check;</td>
+			</tr>
+
+			<tr>
+			<td>Slightly low</td>
+			<td id = 'e-sl' >&check;</td>
+			<td id = 'a-sl' >&check;</td>
+			<td id = 'c-sl' >&check;</td>
+			<td id = 'n-sl' >&check;</td>
+			<td id = 'o-sl' >&check;</td>
+			</tr>
+
+			<tr>
+			<td>Moderate</td>
+			<td id = 'e-m' >&check;</td>
+			<td id = 'a-m' >&check;</td>
+			<td id = 'c-m' >&check;</td>
+			<td id = 'n-m' >&check;</td>
+			<td id = 'o-m' >&check;</td>
+			</tr>
+
+			<tr>
+			<td>Slightly high</td>
+			<td id = 'e-sh' >&check;</td>
+			<td id = 'a-sh' >&check;</td>
+			<td id = 'c-sh' >&check;</td>
+			<td id = 'n-sh' >&check;</td>
+			<td id = 'o-sh' >&check;</td>
+			</tr>
+
+			<tr>
+			<td>Extremely high</td>
+			<td id = 'e-eh' >&check;</td>
+			<td id = 'a-eh' >&check;</td>
+			<td id = 'c-eh' >&check;</td>
+			<td id = 'n-eh' >&check;</td>
+			<td id = 'o-eh' >&check;</td>
+			</tr>
+
+			</table>
+			
+			<h2 style = 'font-family:arial;' >Personality Description :
+			
+			<p id = 'u-pe' >---</p>
+			
+			<p id = "u-pa">---</p>
+			
+			<p id = "u-pc">---</p>
+			
+			<p id = "u-pn">---</p>
+			
+			<p id = "u-po">---</p>
+			
+			</h2>
+
+</div>
+	</body>
+</html>
